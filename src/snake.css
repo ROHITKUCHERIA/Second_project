@@ -1,0 +1,38 @@
+.game-area{
+    position: relative;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+     border: 6px solid rgba(8, 255, 160, 0.548);
+    background-color:rgba(93, 176, 197, 0.486);
+}
+.snake-dot{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color :rgb(225, 0, 255) ;  
+    border: 1px solid #ffffff;
+}
+.snake-food{
+    position: absolute;
+    width:2%;
+    height:2%;
+    background:red;
+    border: 1px solid #fff;
+    /* z-index:1; */
+}
+.snake-game{
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    
+        text-align: center;
+         min-height : 100vh; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Rohit{
+    position: absolute;
+    left:50px;
+    top: 60px;
+}
